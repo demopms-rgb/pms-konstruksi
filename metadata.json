@@ -1,0 +1,6 @@
+{
+  "name": "PMS KONSTRUKSI",
+  "description": "Sistem Manajemen Operasional Perusahaan Konstruksi Terintegrasi untuk Proyek, Kontrak, RAB, Teknik, Logistik, Finance, Aset, dan Dokumen Persetujuan.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

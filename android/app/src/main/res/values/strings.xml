@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">PMS KONSTRUKSI</string>
+    <string name="title_activity_main">PMS KONSTRUKSI</string>
+    <string name="package_name">id.pmskonstruksi.app</string>
+    <string name="custom_url_scheme">id.pmskonstruksi.app</string>
+</resources>

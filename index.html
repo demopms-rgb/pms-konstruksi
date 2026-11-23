@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>PMS KONSTRUKSI — Sistem Manajemen Operasional Konstruksi</title>
+    <meta name="description" content="Sistem manajemen operasional perusahaan konstruksi terintegrasi untuk mengelola proyek, kontrak, RAB, teknik, logistik, keuangan, aset perusahaan, dan dokumen persetujuan." />
+    <meta name="theme-color" content="#13233C" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="PMS Proyek" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/pwa-192x192.png" />
+    <meta property="og:title" content="PMS KONSTRUKSI — Sistem Manajemen Operasional Konstruksi" />
+    <meta property="og:description" content="Sistem manajemen operasional terintegrasi untuk proyek konstruksi, kontrak & termin, RAB, logistik material, keuangan, dan persetujuan internal." />
+    <meta property="og:image" content="/assets/aistudio/Logo_PMS_Konstruksi_Modern_2dc57a3c.png" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <script>
+      window.__pmsBeforeInstallPrompt = null;
+      window.__pmsAppInstalled = false;
+      window.addEventListener('beforeinstallprompt', function (e) {
+        e.preventDefault();
+        window.__pmsBeforeInstallPrompt = e;
+        window.dispatchEvent(new CustomEvent('pms:pwa-state-change'));
+      });
+      window.addEventListener('appinstalled', function () {
+        window.__pmsBeforeInstallPrompt = null;
+        window.__pmsAppInstalled = true;
+        window.dispatchEvent(new CustomEvent('pms:pwa-state-change'));
+      });
+    </script>
+  </head>
+  <body class="bg-slate-50 text-slate-900 antialiased">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
